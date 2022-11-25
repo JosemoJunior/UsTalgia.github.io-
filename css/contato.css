@@ -1,0 +1,7 @@
+.formulario {
+    margin: 5rem;
+}
+
+.botao_enviar:hover {
+	background-color: #696969;
+}

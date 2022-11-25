@@ -1,0 +1,39 @@
+.materia {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3rem;
+}
+
+.materia_titulo {
+	font-weight: bold;
+}
+
+.materia_subtitulo {
+	font-weight: bold;
+}
+
+.imagem_materia {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.materia_assunto {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10rem;
+}
+.materia_texto {
+	display: flex;
+	align-items: flex-start;
+	width: 70%;
+}
+
+.materia_lista, .materia_lista li {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
