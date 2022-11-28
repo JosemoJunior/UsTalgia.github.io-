@@ -19,10 +19,19 @@
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
+.imagem_materia_corpo {
+	width: 40%;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
 .materia_assunto {
+	margin-top: 1rem;
 	display: flex;
 	flex-direction: column;
-	margin-left: 10rem;
+	align-items: center;
+	text-align: justify;
 }
 .materia_texto {
 	display: flex;
@@ -30,10 +39,18 @@
 	width: 70%;
 }
 
-.materia_lista, .materia_lista li {
+.materia_lista {
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
 	align-items: flex-start;
+	width: 70%;
+}
+.item_lista {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+
 }
 

@@ -18,7 +18,9 @@ body {
     min-height: 1vh;
 
 }
-
+a {
+	text-decoration: none;
+}
 .ustalgia {
 	color: red;
 	font-weight: bold;
@@ -48,9 +50,6 @@ footer {
 	box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.carousel-control-next {
-
-}
 
 .carousel-item {
 	background-color: #999999;
@@ -76,8 +75,14 @@ footer {
 }
 
 
+.card_titulo {
+	padding-left: 1rem;
+	font-weight: bold;
+}
 
-
+rect {
+	margin-top: 0.5rem;
+}
 
 /*
 #texto_noticia {
