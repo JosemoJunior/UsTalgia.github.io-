@@ -83,7 +83,13 @@ footer {
 rect {
 	margin-top: 0.5rem;
 }
-
+.titulo_pagina {
+	text-align: left;
+	margin-left: 4rem;
+	margin-top: 1rem;
+	font-weight: bold;
+	width: 70%;
+}
 /*
 #texto_noticia {
 	color: blue;
